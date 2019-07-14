@@ -26,5 +26,34 @@ def nyc_pigeon_organizer(data)
      end
    end
  end
-
-end
+fk = final.keys
+  data[:color].each do |pigColor, name|
+    name.each do |pigName|
+      fk.each do |item|
+        if pigName === item
+          finalHash[item][:color] << pigColor.to_s
+        end 
+      end 
+    end 
+  end 
+  data[:gender].each do |gender, type|
+    type.each do |pigName|
+      fk.each do |item|
+        if pigName === item
+          finalHash[item][:gender] << gender.to_s
+        end 
+      end 
+    end 
+  end 
+  data[:lives].each do |location, name|
+    name.each do |pigName|
+      fk.each do |item|
+        if pigName === item
+          finalHash[item][:lives] << location
+        end 
+      end 
+    end 
+  end 
+  
+  return finalHash 
+end 
