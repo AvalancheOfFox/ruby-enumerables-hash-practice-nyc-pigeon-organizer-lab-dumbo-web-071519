@@ -58,4 +58,5 @@ fk = final.keys
   return finalHash 
 end 
 
+nyc_pigeon_organizer(pigeon_data)
 
