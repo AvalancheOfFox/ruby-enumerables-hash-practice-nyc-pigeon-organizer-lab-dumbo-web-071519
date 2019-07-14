@@ -18,5 +18,6 @@ pigeon_data = {
 }
 
 def nyc_pigeon_organizer(data)
-  # write your code here!
+ finalHash = {}
+ 
 end
