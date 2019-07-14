@@ -26,17 +26,5 @@ def nyc_pigeon_organizer(data)
      end
    end
  end
- fk = final.keys
- data[:color].each do |pigColor, name|
-   name.each do |pigName|
-     if pigName === 
-      fk.each do |item|
-        if pigName === item
-          final[item][:color] << bird_color.to_s
-        end 
-      end 
-    end 
-  end 
- 
- 
+
 end
