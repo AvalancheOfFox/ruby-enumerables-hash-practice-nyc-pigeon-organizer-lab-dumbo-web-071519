@@ -27,6 +27,7 @@ def nyc_pigeon_organizer(data)
    end
  end
  fk = final.keys
+ data[:color] =
  
  
  
