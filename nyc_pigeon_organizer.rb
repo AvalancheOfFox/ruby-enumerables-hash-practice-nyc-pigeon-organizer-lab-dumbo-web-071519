@@ -21,5 +21,9 @@ def nyc_pigeon_organizer(data)
  finalHash = {}
  data.each do |top, others|
    others.each do |category, arr|
-     arr.
+     arr.each do |name|
+       final[name] = 
+     end
+   end
+ end
 end
