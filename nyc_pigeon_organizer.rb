@@ -22,7 +22,7 @@ def nyc_pigeon_organizer(data)
  data.each do |top, others|
    others.each do |category, arr|
      arr.each do |name|
-       final[name] = 
+       finalHash[name] = {:color => [], :gender => [], :lives => []}
      end
    end
  end
