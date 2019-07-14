@@ -28,7 +28,8 @@ def nyc_pigeon_organizer(data)
  end
  fk = final.keys
  data[:color].each do |pigColor, name|
-   name.each do ||
+   name.each do |pigName|
+     if pigName == 
  
  
  
