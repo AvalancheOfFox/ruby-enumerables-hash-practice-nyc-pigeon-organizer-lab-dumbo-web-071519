@@ -27,7 +27,8 @@ def nyc_pigeon_organizer(data)
    end
  end
  fk = final.keys
- data[:color].each do |pigColor, |
+ data[:color].each do |pigColor, name|
+   name[]
  
  
  
